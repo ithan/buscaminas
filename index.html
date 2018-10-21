@@ -1,0 +1,45 @@
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+      <div class="containerr p-5 m-5">
+        <div class="center">
+          <ul>
+
+          <li>
+            <p>Width</p>
+            <input class="m-5 circle text-center"id="width" type="text" value="20" >
+          </li>
+          <li>
+            <p>Height</p>
+            <input class="m-5 circle text-center"id="height" type="text" value="15" >
+          </li>
+          <li>
+            <p>Mines</p>
+            <input class="m-5 circle text-center"id="mines" type="text" value="40" >
+          </li>
+          <li>
+            <button class="m-5 circle text-center"id="play" onclick="generateGame()">Go!</button></li>
+        </ul>
+        <p>
+          Use space to mark a mine.
+        </p>
+        <h3 class="green p-5 hidden" >
+          You WIN!
+        </h3>
+        </div>
+
+      </div>
+
+        <script src="p5.js"></script>
+        <script src="cell.js"></script>
+        <script src="game.js"></script>
+        <script src="main.js"></script>
+
+    </body>
+
+
+</html>

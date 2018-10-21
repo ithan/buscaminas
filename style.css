@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1350px;
+  margin: 0 auto;
+  display: block;
+}
+
+.text-center{
+  text-align: center;
+}
+.center{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-5{
+  padding: 5px;
+}
+.m-5{
+  margin: 5px;
+}
+.hidden{
+  display: none;
+}
+.green{
+  color: green;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(70,0,80,1);
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+}
+
+canvas{
+  margin: 0 auto;
+  display: block;
+}
+
+button{
+  background: rgba(255,165,145,1);
+  border: 1px solid #000 !important;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover{
+background: rgba(0,70,150,.8);
+transition: all 0.5s;
+  }
+
+ul li{
+  display: inline-block;
+  width: 60px;
+}
